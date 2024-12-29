@@ -4,17 +4,17 @@ import { Github, Globe, X } from 'lucide-react';
 const projects = [
   {
     id: 1,
-    title: "E-Commerce Platform",
-    description: "A full-stack e-commerce solution with real-time inventory management",
+    title: "Professional nail salon",
+    description: "A full-stack Professional nail salon website",
     image: "https://images.unsplash.com/photo-1557821552-17105176677c?auto=format&fit=crop&q=80&w=800",
-    tags: ["React", "Node.js", "MongoDB"],
+    tags: ["React", "Node.js", "Typescript"],
     github: "#",
     demo: "#"
   },
   {
     id: 2,
-    title: "AI Chat Application",
-    description: "Real-time chat application with AI-powered responses",
+    title: "Artist's website",
+    description: "Website",
     image: "https://images.unsplash.com/photo-1587560699334-cc4ff634909a?auto=format&fit=crop&q=80&w=800",
     tags: ["Python", "TensorFlow", "WebSocket"],
     github: "#",
@@ -22,8 +22,8 @@ const projects = [
   },
   {
     id: 3,
-    title: "Portfolio Generator",
-    description: "Dynamic portfolio generator for developers",
+    title: "Mejalyne E-store",
+    description: "Dynamic store showcasing both hardware and household items",
     image: "https://images.unsplash.com/photo-1460925895917-afdab827c52f?auto=format&fit=crop&q=80&w=800",
     tags: ["TypeScript", "Next.js", "Tailwind"],
     github: "#",

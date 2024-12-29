@@ -15,9 +15,9 @@ export default function Hero() {
           </div>
           <div className="md:w-1/2 text-center md:text-left">
             <h1 className="text-4xl md:text-6xl font-bold mb-4">
-              John Doe
+              Lewis Weru
               <span className="block text-blue-400 text-2xl md:text-3xl mt-2">
-                Full-Stack Developer
+                Full stack developer
               </span>
             </h1>
             <p className="text-gray-300 text-lg mb-8">
@@ -34,13 +34,13 @@ export default function Hero() {
               </button>
             </div>
             <div className="flex gap-6 justify-center md:justify-start">
-              <a href="#" className="text-gray-400 hover:text-white transition-colors">
+              <a href="https://github.com/Lewisweru" className="text-gray-400 hover:text-white transition-colors">
                 <Github size={24} />
               </a>
-              <a href="#" className="text-gray-400 hover:text-white transition-colors">
+              <a href="https://www.linkedin.com/in/onlylewis/" className="text-gray-400 hover:text-white transition-colors">
                 <Linkedin size={24} />
               </a>
-              <a href="#" className="text-gray-400 hover:text-white transition-colors">
+              <a href="mailto:lewisweru.riarauniversity.ac.ke" className="text-gray-400 hover:text-white transition-colors">
                 <Mail size={24} />
               </a>
             </div>

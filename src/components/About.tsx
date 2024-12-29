@@ -9,8 +9,8 @@ export default function About() {
           <h2 className="text-3xl font-bold text-center mb-12">About Me</h2>
           <div className="prose prose-lg max-w-none">
             <p className="text-gray-600 mb-6">
-              I'm a passionate software developer with over 5 years of experience in building web and mobile applications.
-              My journey in technology began during my college years when I discovered my love for problem-solving through code.
+              I'm a passionate software developer with over 2 years of experience in building web applications.
+              My journey in technology began during after my highschool years when I discovered my love for problem-solving through code.
             </p>
             
             <div className="grid grid-cols-1 md:grid-cols-3 gap-8 my-12">
@@ -21,7 +21,7 @@ export default function About() {
                 <h3 className="font-semibold mb-2">Education</h3>
                 <p className="text-sm text-gray-600">
                   B.S. Computer Science<br />
-                  Stanford University
+                  Riara University
                 </p>
               </div>
               
@@ -31,7 +31,7 @@ export default function About() {
                 </div>
                 <h3 className="font-semibold mb-2">Experience</h3>
                 <p className="text-sm text-gray-600">
-                  5+ Years<br />
+                  2+ Years<br />
                   Full-Stack Development
                 </p>
               </div>
@@ -42,15 +42,15 @@ export default function About() {
                 </div>
                 <h3 className="font-semibold mb-2">Projects</h3>
                 <p className="text-sm text-gray-600">
-                  50+ Projects<br />
+                  5+ Projects<br />
                   Completed
                 </p>
               </div>
             </div>
 
             <p className="text-gray-600 mb-6">
-              When I'm not coding, you can find me contributing to open-source projects, writing technical articles,
-              or mentoring aspiring developers. I believe in continuous learning and staying up-to-date with the latest
+              When I'm not coding, you can find me contributing to open-source projects, reading critical thinking articles,
+              or learning emerging developers. I believe in continuous learning and staying up-to-date with the latest
               technologies and best practices in software development.
             </p>
           </div>

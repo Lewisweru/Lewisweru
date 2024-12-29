@@ -12,15 +12,15 @@ export default function Contact() {
             <div className="space-y-4">
               <div className="flex items-center gap-3">
                 <Mail className="w-5 h-5 text-blue-500" />
-                <span>john.doe@example.com</span>
+                <span>lewis.weru@riarauniversity.ac.ke</span>
               </div>
               <div className="flex items-center gap-3">
                 <Phone className="w-5 h-5 text-blue-500" />
-                <span>+1 (555) 123-4567</span>
+                <span>+(254) 718-017-553</span>
               </div>
               <div className="flex items-center gap-3">
                 <MapPin className="w-5 h-5 text-blue-500" />
-                <span>San Francisco, CA</span>
+                <span>Nairobi, KE</span>
               </div>
             </div>
           </div>
@@ -33,7 +33,7 @@ export default function Contact() {
                 <input
                   type="text"
                   className="w-full px-4 py-2 border border-gray-300 rounded-lg focus:ring-2 focus:ring-blue-500 focus:border-transparent"
-                  placeholder="Your name"
+                  placeholder="Lewis Weru"
                 />
               </div>
               <div>
@@ -43,7 +43,7 @@ export default function Contact() {
                 <input
                   type="email"
                   className="w-full px-4 py-2 border border-gray-300 rounded-lg focus:ring-2 focus:ring-blue-500 focus:border-transparent"
-                  placeholder="your@email.com"
+                  placeholder="lewis.weru@riarauniversity.ac.ke"
                 />
               </div>
             </div>

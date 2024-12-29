@@ -10,12 +10,12 @@ const skills = [
   {
     category: "Backend",
     icon: <Database className="w-6 h-6" />,
-    items: ["Node.js", "Python", "PostgreSQL", "Redis"]
+    items: ["Node.js", "Python"]
   },
   {
     category: "Mobile",
     icon: <Smartphone className="w-6 h-6" />,
-    items: ["React Native", "Flutter", "iOS", "Android"]
+    items: ["React Native", "Flutter"]
   },
   {
     category: "Other",
