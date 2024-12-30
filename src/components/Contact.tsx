@@ -33,7 +33,7 @@ export default function Contact() {
                 <input
                   type="text"
                   className="w-full px-4 py-2 border border-gray-300 rounded-lg focus:ring-2 focus:ring-blue-500 focus:border-transparent"
-                  placeholder="Lewis Weru"
+                  placeholder="Your name ..."
                 />
               </div>
               <div>
@@ -43,7 +43,7 @@ export default function Contact() {
                 <input
                   type="email"
                   className="w-full px-4 py-2 border border-gray-300 rounded-lg focus:ring-2 focus:ring-blue-500 focus:border-transparent"
-                  placeholder="lewis.weru@riarauniversity.ac.ke"
+                  placeholder="Your email ..."
                 />
               </div>
             </div>

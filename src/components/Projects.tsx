@@ -5,8 +5,8 @@ const projects = [
   {
     id: 1,
     title: "Professional nail salon",
-    description: "A full-stack Professional nail salon website",
-    image: "https://images.unsplash.com/photo-1557821552-17105176677c?auto=format&fit=crop&q=80&w=800",
+    description: "A Professional nail salon website",
+    image: "https://github.com/Lewisweru/Lewisweru/raw/main/public/jesse.jpg",
     tags: ["React", "Node.js", "Typescript"],
     github: "#",
     demo: "#"
@@ -24,7 +24,7 @@ const projects = [
     id: 3,
     title: "Mejalyne E-store",
     description: "Dynamic store showcasing both hardware and household items",
-    image: "https://images.unsplash.com/photo-1460925895917-afdab827c52f?auto=format&fit=crop&q=80&w=800",
+    image: "https://github.com/Lewisweru/Lewisweru/raw/main/public/thumbnail.jpg",
     tags: ["TypeScript", "Next.js", "Tailwind"],
     github: "#",
     demo: "#"
