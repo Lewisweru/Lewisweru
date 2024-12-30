@@ -24,14 +24,19 @@ export default function Hero() {
               Crafting elegant solutions to complex problems with clean, efficient code.
             </p>
             <div className="flex gap-4 justify-center md:justify-start mb-8">
-              <button className="bg-blue-500 hover:bg-blue-600 text-white px-6 py-3 rounded-lg flex items-center gap-2 transition-all">
-                <ExternalLink size={20} />
+             <a
+               href="/MYYCV.pdf"
+               target="_blank"
+               rel="noopener noreferrer"
+               className="bg-blue-500 hover:bg-blue-600 text-white px-6 py-3 rounded-lg flex items-center gap-2 transition-all"
+               >
+               <ExternalLink size={20} />
                 View Resume
-              </button>
-              <button className="border border-blue-500 hover:bg-blue-500/10 text-white px-6 py-3 rounded-lg flex items-center gap-2 transition-all">
+              </a>
+                <button className="border border-blue-500 hover:bg-blue-500/10 text-white px-6 py-3 rounded-lg flex items-center gap-2 transition-all">
                 <Mail size={20} />
                 Contact Me
-              </button>
+                </button>
             </div>
             <div className="flex gap-6 justify-center md:justify-start">
               <a href="https://github.com/Lewisweru" className="text-gray-400 hover:text-white transition-colors">
