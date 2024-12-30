@@ -8,8 +8,8 @@ const projects = [
     description: "A Professional nail salon website",
     image: "https://github.com/Lewisweru/Lewisweru/raw/main/public/jesse.jpg",
     tags: ["React", "Node.js", "Typescript"],
-    github: "#",
-    demo: "#"
+    github: "https://github.com/Lewisweru/Jessenails",
+    demo: "https://jessynails.netlify.app"
   },
   {
     id: 2,
@@ -17,8 +17,8 @@ const projects = [
     description: "Website",
     image: "https://images.unsplash.com/photo-1587560699334-cc4ff634909a?auto=format&fit=crop&q=80&w=800",
     tags: ["Python", "TensorFlow", "WebSocket"],
-    github: "#",
-    demo: "#"
+    github: "https://github.com/Lewisweru/icymax",
+    demo: "https://icymaxy.netlify.app"
   },
   {
     id: 3,
@@ -26,8 +26,8 @@ const projects = [
     description: "Dynamic store showcasing both hardware and household items",
     image: "https://github.com/Lewisweru/Lewisweru/raw/main/public/thumbnail.jpg",
     tags: ["TypeScript", "Next.js", "Tailwind"],
-    github: "#",
-    demo: "#"
+    github: "https://github.com/Lewisweru/Mejalynhardware",
+    demo: "https://mejalynebarakahardware.netlify.app"
   }
 ];
 
