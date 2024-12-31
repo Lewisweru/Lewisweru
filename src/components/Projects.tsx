@@ -15,8 +15,8 @@ const projects = [
     id: 2,
     title: "Artist's website",
     description: "Website",
-    image: "https://images.unsplash.com/photo-1587560699334-cc4ff634909a?auto=format&fit=crop&q=80&w=800",
-    tags: ["Python", "TensorFlow", "WebSocket"],
+    image: "https://github.com/Lewisweru/Lewisweru/raw/main/public/Maxthumbnail.jpg",
+    tags: ["Typescript", "React", "Vite"],
     github: "https://github.com/Lewisweru/icymax",
     demo: "https://icymaxy.netlify.app"
   },
