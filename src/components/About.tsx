@@ -50,7 +50,7 @@ export default function About() {
 
             <p className="text-gray-600 mb-6">
               When I'm not coding, you can find me contributing to open-source projects, reading critical thinking articles,
-              or learning emerging developers. I believe in continuous learning and staying up-to-date with the latest
+              or learning emerging technologies. I believe in continuous learning and staying up-to-date with the latest
               technologies and best practices in software development.
             </p>
           </div>
