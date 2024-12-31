@@ -12,6 +12,7 @@ function App() {
       <Hero />
       <About />
       <Skills />
+      <Certificates />
       <Projects />
       <Contact />
       <footer className="bg-gray-900 text-white py-8">
