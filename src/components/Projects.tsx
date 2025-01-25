@@ -28,6 +28,14 @@ const projects = [
     tags: ["TypeScript", "Next.js", "Tailwind"],
     github: "https://github.com/Lewisweru/Mejalynhardware",
     demo: "https://mejalynebarakahardware.netlify.app"
+  },
+  {
+    id: 4,
+    title: "Agile Kanban board",
+    description: "Skilled in organizing tasks and workflows using Kanban boards in GitHub Projects, optimizing task tracking and team collaboration.",
+    image: "https://github.com/Lewisweru/Lewisweru/raw/main/public/lab%20agile%20planning.jpg",
+    tags: ["Agile methodology", "Kanban board",],
+    github: "https://github.com/users/Lewisweru/projects/2"
   }
 ];
 
