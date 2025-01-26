@@ -39,13 +39,17 @@ export default function Hero() {
                 </button>
             </div>
             <div className="flex gap-6 justify-center md:justify-start">
-              <a href="https://github.com/Lewisweru" className="text-gray-400 hover:text-white transition-colors">
+              <a target="_blank"
+              href="https://github.com/Lewisweru" className="text-gray-400 hover:text-white transition-colors">
                 <Github size={24} />
               </a>
-              <a href="https://www.linkedin.com/in/onlylewis/" className="text-gray-400 hover:text-white transition-colors">
+              <a 
+              target="_blank"
+              href="https://www.linkedin.com/in/onlylewis/" className="text-gray-400 hover:text-white transition-colors">
                 <Linkedin size={24} />
               </a>
-              <a href="mailto:lewisweru.riarauniversity.ac.ke" className="text-gray-400 hover:text-white transition-colors">
+              <a target="_blank"
+               href="mailto:lewisweru.riarauniversity.ac.ke" className="text-gray-400 hover:text-white transition-colors">
                 <Mail size={24} />
               </a>
             </div>
