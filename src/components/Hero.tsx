@@ -8,7 +8,7 @@ export default function Hero() {
         <div className="flex flex-col md:flex-row items-center justify-between gap-12">
           <div className="md:w-1/2">
             <img
-              src="https://imgur.com/rC6dgU3"
+              src="https://i.imgur.com/rC6dgU3.jpeg"
               alt="Developer Profile"
               className="rounded-full w-48 h-48 md:w-64 md:h-64 object-cover border-4 border-blue-500 shadow-xl mx-auto md:mx-0"
             />
