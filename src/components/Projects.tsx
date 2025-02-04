@@ -6,7 +6,7 @@ const projects = [
     id: 1,
     title: "Professional nail salon",
     description: "A Professional nail salon website",
-    image: "https://github.com/Lewisweru/Lewisweru/raw/main/public/jesse.jpg",
+    image: "https://i.imgur.com/EuaqspZ.jpeg",
     tags: ["React", "Typescript"],
     github: "https://github.com/Lewisweru/Jessenails",
     demo: "https://jessynails.netlify.app"
@@ -15,7 +15,7 @@ const projects = [
     id: 2,
     title: "Artist's website",
     description: "Website",
-    image: "https://imgur.com/w2SMAmW",
+    image: "https://i.imgur.com/w2SMAmW.jpeg",
     tags: ["Typescript", "React", "Vite"],
     github: "https://github.com/Lewisweru/icymax",
     demo: "https://icymaxy.netlify.app"
@@ -24,7 +24,7 @@ const projects = [
     id: 3,
     title: "Mejalyne E-store",
     description: "Dynamic store showcasing both hardware and household items",
-    image: "https://imgur.com/lNY1UHn",
+    image: "https://i.imgur.com/lNY1UHn.jpeg",
     tags: ["TypeScript", "Next.js", "Tailwind"],
     github: "https://github.com/Lewisweru/Mejalynhardware",
     demo: "https://mejalynebarakahardware.netlify.app"
@@ -33,7 +33,7 @@ const projects = [
     id: 4,
     title: "Agile Kanban board",
     description: "Skilled in organizing tasks and workflows using Kanban boards in GitHub Projects, optimizing task tracking and team collaboration.",
-    image: "https://imgur.com/CUqLMNE",
+    image: "https://i.imgur.com/CUqLMNE.jpeg",
     tags: ["Agile methodology", "Kanban board",],
     github: "https://github.com/users/Lewisweru/projects/2"
   }
