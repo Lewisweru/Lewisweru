@@ -36,6 +36,13 @@ const certificates = [
     link: 'https://coursera.org/share/c3cf2cb72c51bd284d4338c0494d1433',
     logo: 'https://github.com/Lewisweru/Lewisweru/raw/main/public/Coursera-Logo_600x600.svg.png',
   },
+  {
+    title: 'Hands-on Introduction to Linux Commands and Shell Scripting',
+    organization: 'Coursera',
+    date: 'Nov 10, 2024',
+    link: 'https://coursera.org/share/c6cb26b1ef1045627e81443256eefd1b',
+    logo: 'https://github.com/Lewisweru/Lewisweru/raw/main/public/Coursera-Logo_600x600.svg.png',
+  },
 ];
 
 export default function Certificates() {
