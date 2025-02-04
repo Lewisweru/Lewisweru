@@ -7,7 +7,7 @@ const projects = [
     title: "Professional nail salon",
     description: "A Professional nail salon website",
     image: "https://github.com/Lewisweru/Lewisweru/raw/main/public/jesse.jpg",
-    tags: ["React", "Node.js", "Typescript"],
+    tags: ["React", "Typescript"],
     github: "https://github.com/Lewisweru/Jessenails",
     demo: "https://jessynails.netlify.app"
   },
@@ -15,7 +15,7 @@ const projects = [
     id: 2,
     title: "Artist's website",
     description: "Website",
-    image: "https://github.com/Lewisweru/Lewisweru/raw/main/public/Maxthumbnail.jpg",
+    image: "https://imgur.com/w2SMAmW",
     tags: ["Typescript", "React", "Vite"],
     github: "https://github.com/Lewisweru/icymax",
     demo: "https://icymaxy.netlify.app"
@@ -24,7 +24,7 @@ const projects = [
     id: 3,
     title: "Mejalyne E-store",
     description: "Dynamic store showcasing both hardware and household items",
-    image: "https://github.com/Lewisweru/Lewisweru/raw/main/public/thumbnail.jpg",
+    image: "https://imgur.com/lNY1UHn",
     tags: ["TypeScript", "Next.js", "Tailwind"],
     github: "https://github.com/Lewisweru/Mejalynhardware",
     demo: "https://mejalynebarakahardware.netlify.app"
@@ -33,7 +33,7 @@ const projects = [
     id: 4,
     title: "Agile Kanban board",
     description: "Skilled in organizing tasks and workflows using Kanban boards in GitHub Projects, optimizing task tracking and team collaboration.",
-    image: "https://github.com/Lewisweru/Lewisweru/raw/main/public/lab%20agile%20planning.jpg",
+    image: "https://imgur.com/CUqLMNE",
     tags: ["Agile methodology", "Kanban board",],
     github: "https://github.com/users/Lewisweru/projects/2"
   }
