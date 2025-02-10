@@ -25,7 +25,7 @@ const projects = [
     title: "Mejalyne E-store",
     description: "Dynamic store showcasing both hardware and household items",
     image: "https://i.imgur.com/lNY1UHn.jpeg",
-    tags: ["TypeScript", "Next.js", "Tailwind"],
+    tags: ["TypeScript", "Tailwind"],
     github: "https://github.com/Lewisweru/Mejalynhardware",
     demo: "https://mejalynebarakahardware.netlify.app"
   },
