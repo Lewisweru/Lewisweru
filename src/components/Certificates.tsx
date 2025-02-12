@@ -43,6 +43,13 @@ const certificates = [
     link: 'https://coursera.org/share/c6cb26b1ef1045627e81443256eefd1b',
     logo: 'https://i.imgur.com/RFi5Oyv.png',
   },
+  {
+    title: 'Python for Data Science, AI & Development' ,
+    organization: 'Coursera',
+    date: 'Feb 13, 2025',
+    link: 'https://coursera.org/share/c6cb26b1ef1045627e81443256eefd1b',
+    logo: 'https://i.imgur.com/RFi5Oyv.png',
+  }
 ];
 
 export default function Certificates() {
