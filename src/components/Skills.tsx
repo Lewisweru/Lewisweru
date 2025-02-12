@@ -1,5 +1,5 @@
 import React from 'react';
-import { Code2, Database, Globe, Smartphone } from 'lucide-react';
+import { Code2, Database, Globe, Smartphone , Bot} from 'lucide-react';
 
 const skills = [
   {
@@ -13,14 +13,14 @@ const skills = [
     items: ["Node.js", "Python"]
   },
   {
-    category: "Mobile",
-    icon: <Smartphone className="w-6 h-6" />,
-    items: ["React Native", "Flutter"]
+    category: "Data Science , AI and Machine Learning",
+    icon: <Bot className="w-6 h-6" />,
+    items: ["Pandas", "Numpy" ,"Web scraping"]
   },
   {
     category: "Other",
     icon: <Code2 className="w-6 h-6" />,
-    items: ["Git", "CI/CD" , "Cloud computing","DevOps"]
+    items: ["Git", "CI/CD" , "Cloud computing","DevOps" , "Linux", ]
   }
 ];
 
