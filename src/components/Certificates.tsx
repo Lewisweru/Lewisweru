@@ -47,7 +47,7 @@ const certificates = [
     title: 'Python for Data Science, AI & Development' ,
     organization: 'Coursera',
     date: 'Feb 13, 2025',
-    link: 'https://coursera.org/share/c6cb26b1ef1045627e81443256eefd1b',
+    link: 'https://coursera.org/share/7d00e8e3aa30e7d0b5820e8ff6bac221',
     logo: 'https://i.imgur.com/RFi5Oyv.png',
   }
 ];
