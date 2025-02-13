@@ -25,7 +25,7 @@ export default function Hero() {
             </p>
             <div className="flex gap-4 justify-center md:justify-start mb-8">
              <a
-               href="/MYYCV.pdf"
+               href="/MYCV.pdf"
                target="_blank"
                rel="noopener noreferrer"
                className="bg-blue-500 hover:bg-blue-600 text-white px-6 py-3 rounded-lg flex items-center gap-2 transition-all"
