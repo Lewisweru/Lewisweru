@@ -2,24 +2,26 @@ import React from 'react';
 import { Github, Linkedin, Mail, ExternalLink } from 'lucide-react';
 
 export default function Hero() {
+  // Function to create the rain drops evenly
   const createRainDrops = () => {
     const drops = [];
-    const columns = Math.floor(window.innerWidth / 20); // Adjust column width for spacing
-    const rows = Math.floor(window.innerHeight / 20); // Adjust row height for spacing
+    const columns = Math.floor(window.innerWidth / 20); // Columns based on screen width
+    const rows = Math.floor(window.innerHeight / 20);  // Rows based on screen height
 
-    // Create multiple spans for the matrix effect
+    // Loop to create drops
     for (let i = 0; i < columns; i++) {
       drops.push(
         <span
           key={i}
           style={{
-            left: `${i * 20}px`,
-            animationDelay: `${Math.random() * 5}s`,
-            animationDuration: `${Math.random() * 3 + 2}s`,
-            top: `${Math.random() * window.innerHeight}px`,
+            left: `${i * 20}px`,  // Position each rain drop
+            animationDelay: `${Math.random() * 5}s`, // Random delay for effect
+            animationDuration: `${Math.random() * 3 + 3}s`, // Vary the speed of falling
+            top: `${Math.random() * window.innerHeight}px`, // Random starting top position
+            fontSize: `${Math.random() * 2 + 18}px`, // Vary font size for depth
           }}
         >
-          010101010101010101010101010101010101010101010101010101
+          0
         </span>
       );
     }

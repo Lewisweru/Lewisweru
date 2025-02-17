@@ -5,7 +5,7 @@
 @layer utilities {
   @keyframes matrixRain {
     0% {
-      transform: translateY(0);
+      transform: translateY(-100%);
     }
     100% {
       transform: translateY(100%);
@@ -18,8 +18,9 @@
     left: 0;
     width: 100%;
     height: 100%;
-    background-color: black;
     overflow: hidden;
+    pointer-events: none; /* To prevent interaction with the rain */
+    z-index: -1; /* Keep it in the background */
   }
 
   .matrix-rain span {
@@ -28,7 +29,8 @@
     font-size: 20px;
     color: rgba(0, 255, 0, 0.8);
     white-space: nowrap;
-    animation: matrixRain 5s linear infinite;
+    animation: matrixRain linear infinite;
     opacity: 0.8;
+    will-change: transform; /* For performance */
   }
 }
