@@ -17,11 +17,11 @@ export default function Hero() {
             <h1 className="text-4xl md:text-6xl font-bold mb-4">
               Lewis Weru
               <span className="block text-blue-400 text-2xl md:text-3xl mt-2">
-                Full stack developer
+                Data Analyst | Software developer
               </span>
             </h1>
             <p className="text-gray-300 text-lg mb-8">
-              Crafting elegant solutions to complex problems with clean, efficient code.
+              Building intelligent solutions through code and data.
             </p>
             <div className="flex gap-4 justify-center md:justify-start mb-8">
              <a

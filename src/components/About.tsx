@@ -9,8 +9,9 @@ export default function About() {
           <h2 className="text-3xl font-bold text-center mb-12">About Me</h2>
           <div className="prose prose-lg max-w-none">
             <p className="text-gray-600 mb-6">
-              I'm a passionate software developer with over 2 years of experience in building web applications.
-              My journey in technology began during after my highschool years when I discovered my love for problem-solving through code.
+            I'm an aspiring data scientist and software developer passionate about building innovative solutions through data and technology. Currently pursuing the Coursera Data Science Professional Certificate, I'm gaining hands-on experience in data analysis, visualization, and AI/ML. Alongside my data science journey, I have a strong foundation in software development, working on web applications, APIs, and system integrations.
+
+            With a background in mathematics and programming, I enjoy solving complex problems through code and data-driven decision-making. I'm always eager to collaborate on projects, explore new technologies, and contribute to impactful solutions. Open to networking, learning opportunities, and industry connections in both software development and data science.
             </p>
             
             <div className="grid grid-cols-1 md:grid-cols-3 gap-8 my-12">
@@ -31,8 +32,8 @@ export default function About() {
                 </div>
                 <h3 className="font-semibold mb-2">Experience</h3>
                 <p className="text-sm text-gray-600">
-                  2+ Years<br />
-                  Full-Stack Development
+                  1+ Years<br />
+                  Software Development
                 </p>
               </div>
               

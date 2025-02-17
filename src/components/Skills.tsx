@@ -15,7 +15,7 @@ const skills = [
   {
     category: "Data Science , AI and Machine Learning",
     icon: <Bot className="w-6 h-6" />,
-    items: ["Pandas", "Numpy" ,"Web scraping"]
+    items: ["Pandas", "Big data","Numpy" ,"Data mining","Python"]
   },
   {
     category: "Other",
