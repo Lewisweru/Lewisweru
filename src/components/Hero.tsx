@@ -2,11 +2,36 @@ import React from 'react';
 import { Github, Linkedin, Mail, ExternalLink } from 'lucide-react';
 
 export default function Hero() {
+  const createRainDrops = () => {
+    const drops = [];
+    const columns = Math.floor(window.innerWidth / 20); // Adjust column width for spacing
+    const rows = Math.floor(window.innerHeight / 20); // Adjust row height for spacing
+
+    // Create multiple spans for the matrix effect
+    for (let i = 0; i < columns; i++) {
+      drops.push(
+        <span
+          key={i}
+          style={{
+            left: `${i * 20}px`,
+            animationDelay: `${Math.random() * 5}s`,
+            animationDuration: `${Math.random() * 3 + 2}s`,
+            top: `${Math.random() * window.innerHeight}px`,
+          }}
+        >
+          010101010101010101010101010101010101010101010101010101
+        </span>
+      );
+    }
+
+    return drops;
+  };
+
   return (
     <section className="relative min-h-screen flex items-center justify-center bg-gradient-to-br from-gray-900 to-gray-800 text-white">
-      {/* Animated Binary Background */}
-      <div className="absolute inset-0 overflow-hidden z-0">
-        <div className="binary-animation"></div>
+      {/* Matrix Rain Effect */}
+      <div className="matrix-rain">
+        {createRainDrops()}
       </div>
 
       <div className="relative z-10 container mx-auto px-4 py-16">
