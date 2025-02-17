@@ -19,8 +19,8 @@
     width: 100%;
     height: 100%;
     overflow: hidden;
-    pointer-events: none; /* To prevent interaction with the rain */
-    z-index: -1; /* Keep it in the background */
+    pointer-events: none; /* Make sure the rain doesn’t block clicks */
+    z-index: -1; /* Keeps the rain effect in the background */
   }
 
   .matrix-rain span {
@@ -31,6 +31,6 @@
     white-space: nowrap;
     animation: matrixRain linear infinite;
     opacity: 0.8;
-    will-change: transform; /* For performance */
+    will-change: transform; /* Helps with performance */
   }
 }

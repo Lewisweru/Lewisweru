@@ -1,40 +1,40 @@
-import React from 'react';
-import { Github, Linkedin, Mail, ExternalLink } from 'lucide-react';
+import React, { useEffect, useState } from "react";
+import { Github, Linkedin, Mail, ExternalLink } from "lucide-react";
 
 export default function Hero() {
-  // Function to create the rain drops evenly
+  const [columns, setColumns] = useState(0);
+
+  useEffect(() => {
+    // Dynamically calculate the number of columns based on the screen width
+    setColumns(Math.floor(window.innerWidth / 20)); // Adjust based on your preference
+  }, []);
+
   const createRainDrops = () => {
     const drops = [];
-    const columns = Math.floor(window.innerWidth / 20); // Columns based on screen width
-    const rows = Math.floor(window.innerHeight / 20);  // Rows based on screen height
-
-    // Loop to create drops
+    // Create matrix rain spans
     for (let i = 0; i < columns; i++) {
       drops.push(
         <span
           key={i}
           style={{
-            left: `${i * 20}px`,  // Position each rain drop
-            animationDelay: `${Math.random() * 5}s`, // Random delay for effect
+            left: `${i * 20}px`, // Position rain drops evenly
+            animationDelay: `${Math.random() * 5}s`, // Randomize animation delay
             animationDuration: `${Math.random() * 3 + 3}s`, // Vary the speed of falling
-            top: `${Math.random() * window.innerHeight}px`, // Random starting top position
-            fontSize: `${Math.random() * 2 + 18}px`, // Vary font size for depth
+            top: `${Math.random() * window.innerHeight}px`, // Start rain drops at random positions
+            fontSize: `${Math.random() * 2 + 18}px`, // Randomize font size for depth
           }}
         >
           0
         </span>
       );
     }
-
     return drops;
   };
 
   return (
     <section className="relative min-h-screen flex items-center justify-center bg-gradient-to-br from-gray-900 to-gray-800 text-white">
       {/* Matrix Rain Effect */}
-      <div className="matrix-rain">
-        {createRainDrops()}
-      </div>
+      <div className="matrix-rain">{createRainDrops()}</div>
 
       <div className="relative z-10 container mx-auto px-4 py-16">
         <div className="flex flex-col md:flex-row items-center justify-between gap-12">
