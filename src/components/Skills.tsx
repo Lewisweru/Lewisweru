@@ -5,7 +5,7 @@ const skills = [
   {
     category: "Frontend",
     icon: <Globe className="w-6 h-6" />,
-    items: ["React", "TypeScript", "Tailwind CSS"]
+    items: ["HTML" , "CSS" , "Javascript" ,"TypeScript", "Tailwind CSS"]
   },
   {
     category: "Backend",
