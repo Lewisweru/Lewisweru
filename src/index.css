@@ -1,3 +1,33 @@
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
+
+@layer utilities {
+  @keyframes binaryMove {
+    0% {
+      transform: translateY(0);
+      opacity: 0.8;
+    }
+    100% {
+      transform: translateY(100vh);
+      opacity: 0;
+    }
+  }
+
+  .binary-animation {
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    overflow: hidden;
+  }
+
+  .binary-animation::before {
+    content: '0101010101010101010110101001101010101011010101010101101010101010';
+    position: absolute;
+    width: 100%;
+    font-size: 20px;
+    color: rgba(0, 255, 0, 0.7);
+    white-space: nowrap;
+    animation: binaryMove 5s linear infinite;
+  }
+}
