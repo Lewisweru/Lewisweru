@@ -1,5 +1,5 @@
-import React from 'react';
-import { motion } from 'framer-motion';
+import React, { useRef } from 'react';
+import { motion, useAnimation } from 'framer-motion';
 import { Code2, Database, Globe, Bot } from 'lucide-react';
 
 const skills = [
@@ -26,18 +26,36 @@ const skills = [
 ];
 
 export default function Skills() {
+  const controls = useAnimation();
+  const ref = useRef(null);
+
+  // Function to restart animation after manual scrolling
+  const startAutoScroll = async () => {
+    await controls.start({ x: 0 }); // Reset position
+    controls.start({ 
+      x: "-100%", 
+      transition: { ease: "linear", duration: 20, repeat: Infinity }
+    });
+  };
+
   return (
     <section className="py-20 bg-gray-50">
       <div className="container mx-auto px-4">
         <h2 className="text-3xl font-bold text-center mb-8">Technical Skills</h2>
         
-        <motion.div className="overflow-hidden cursor-grab" whileTap={{ cursor: "grabbing" }}>
+        <motion.div 
+          className="overflow-hidden cursor-grab" 
+          whileTap={{ cursor: "grabbing" }}
+          ref={ref}
+        >
           <motion.div 
             drag="x"
             dragConstraints={{ left: -1000, right: 0 }} 
             className="flex space-x-6"
-            animate={{ x: ["0%", "-100%"] }} // Moves automatically from right to left
-            transition={{ ease: "linear", duration: 10, repeat: Infinity }} // Infinite loop
+            animate={controls}
+            initial={{ x: 0 }}
+            transition={{ ease: "linear", duration: 20, repeat: Infinity }}
+            onDragEnd={() => startAutoScroll()} // Restart auto-scroll after dragging
           >
             {/* Duplicate skills for seamless looping */}
             {[...skills, ...skills].map((skill, index) => (
