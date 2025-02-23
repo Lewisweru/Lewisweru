@@ -22,6 +22,13 @@ const dataScienceCertificates = [
     link: 'https://coursera.org/share/c6cb26b1ef1045627e81443256eefd1b',
     logo: 'https://i.imgur.com/RFi5Oyv.png',
   }
+  {
+    title: 'Tools for data science',
+    organization: 'Coursera',
+    date: 'Feb 23, 2025',
+    link: 'https://coursera.org/share/741a86125b1d4b6c23816a452ea6d383',
+    logo: 'https://i.imgur.com/RFi5Oyv.png',
+  }
 ];
 
 const softwareDevCertificates = [
