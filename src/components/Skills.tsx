@@ -1,6 +1,6 @@
 import React from 'react';
 import { motion } from 'framer-motion';
-import { Code2, Database, Globe, Smartphone, Bot } from 'lucide-react';
+import { Code2, Database, Globe, Bot } from 'lucide-react';
 
 const skills = [
   {
@@ -16,7 +16,7 @@ const skills = [
   {
     category: "Data Science, AI, and Machine Learning",
     icon: <Bot className="w-6 h-6" />,
-    items: ["Pandas", "Big Data ", "NumPy", "Data Mining", "Python" , "Jupyter Notebooks" , "R studio"]
+    items: ["Pandas", "Big Data", "NumPy", "Data Mining", "Python", "Jupyter Notebooks", "R Studio"]
   },
   {
     category: "Other",
@@ -30,18 +30,19 @@ export default function Skills() {
     <section className="py-20 bg-gray-50">
       <div className="container mx-auto px-4">
         <h2 className="text-3xl font-bold text-center mb-8">Technical Skills</h2>
-        <motion.div 
-          className="overflow-hidden cursor-grab"
-          whileTap={{ cursor: "grabbing" }}
-        >
+        
+        <motion.div className="overflow-hidden cursor-grab" whileTap={{ cursor: "grabbing" }}>
           <motion.div 
-            drag="x" 
+            drag="x"
             dragConstraints={{ left: -1000, right: 0 }} 
             className="flex space-x-6"
+            animate={{ x: ["0%", "-100%"] }} // Moves automatically from right to left
+            transition={{ ease: "linear", duration: 10, repeat: Infinity }} // Infinite loop
           >
-            {skills.map((skill) => (
+            {/* Duplicate skills for seamless looping */}
+            {[...skills, ...skills].map((skill, index) => (
               <motion.div 
-                key={skill.category} 
+                key={index} 
                 className="min-w-[300px] bg-white p-6 rounded-xl shadow-lg hover:shadow-xl transition-shadow"
               >
                 <div className="flex items-center gap-3 mb-4">
@@ -56,10 +57,5 @@ export default function Skills() {
                   ))}
                 </div>
               </motion.div>
-            ))}
-          </motion.div>
-        </motion.div>
-      </div>
-    </section>
-  );
-}
+            )
+
