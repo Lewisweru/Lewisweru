@@ -1,11 +1,12 @@
 import React from 'react';
-import { Code2, Database, Globe, Smartphone , Bot} from 'lucide-react';
+import { motion } from 'framer-motion';
+import { Code2, Database, Globe, Smartphone, Bot } from 'lucide-react';
 
 const skills = [
   {
     category: "Frontend",
     icon: <Globe className="w-6 h-6" />,
-    items: ["HTML" , "CSS" , "Javascript" ,"TypeScript", "Tailwind CSS"]
+    items: ["HTML", "CSS", "JavaScript", "TypeScript", "Tailwind CSS"]
   },
   {
     category: "Backend",
@@ -13,14 +14,14 @@ const skills = [
     items: ["Node.js", "Python"]
   },
   {
-    category: "Data Science , AI and Machine Learning",
+    category: "Data Science, AI, and Machine Learning",
     icon: <Bot className="w-6 h-6" />,
-    items: ["Pandas", "Big data","Numpy" ,"Data mining","Python"]
+    items: ["Pandas", "Big Data ", "NumPy", "Data Mining", "Python" , "Jupyter Notebooks" , "R studio"]
   },
   {
     category: "Other",
     icon: <Code2 className="w-6 h-6" />,
-    items: ["Git", "CI/CD" , "Cloud computing","DevOps" , "Linux", ]
+    items: ["Git", "CI/CD", "Cloud Computing", "DevOps", "Linux"]
   }
 ];
 
@@ -28,27 +29,36 @@ export default function Skills() {
   return (
     <section className="py-20 bg-gray-50">
       <div className="container mx-auto px-4">
-        <h2 className="text-3xl font-bold text-center mb-12">Technical Skills</h2>
-        <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-8">
-          {skills.map((skill) => (
-            <div key={skill.category} className="bg-white p-6 rounded-xl shadow-lg hover:shadow-xl transition-shadow">
-              <div className="flex items-center gap-3 mb-4">
-                {skill.icon}
-                <h3 className="text-xl font-semibold">{skill.category}</h3>
-              </div>
-              <div className="flex flex-wrap gap-2">
-                {skill.items.map((item) => (
-                  <span
-                    key={item}
-                    className="px-3 py-1 bg-blue-100 text-blue-800 rounded-full text-sm"
-                  >
-                    {item}
-                  </span>
-                ))}
-              </div>
-            </div>
-          ))}
-        </div>
+        <h2 className="text-3xl font-bold text-center mb-8">Technical Skills</h2>
+        <motion.div 
+          className="overflow-hidden cursor-grab"
+          whileTap={{ cursor: "grabbing" }}
+        >
+          <motion.div 
+            drag="x" 
+            dragConstraints={{ left: -1000, right: 0 }} 
+            className="flex space-x-6"
+          >
+            {skills.map((skill) => (
+              <motion.div 
+                key={skill.category} 
+                className="min-w-[300px] bg-white p-6 rounded-xl shadow-lg hover:shadow-xl transition-shadow"
+              >
+                <div className="flex items-center gap-3 mb-4">
+                  {skill.icon}
+                  <h3 className="text-xl font-semibold">{skill.category}</h3>
+                </div>
+                <div className="flex flex-wrap gap-2">
+                  {skill.items.map((item) => (
+                    <span key={item} className="px-3 py-1 bg-blue-100 text-blue-800 rounded-full text-sm">
+                      {item}
+                    </span>
+                  ))}
+                </div>
+              </motion.div>
+            ))}
+          </motion.div>
+        </motion.div>
       </div>
     </section>
   );
