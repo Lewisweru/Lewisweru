@@ -28,7 +28,15 @@ const dataScienceCertificates = [
     date: 'Feb 23, 2025',
     link: 'https://coursera.org/share/741a86125b1d4b6c23816a452ea6d383',
     logo: 'https://i.imgur.com/RFi5Oyv.png',
+  },
+  {
+    title: 'Pandas',
+    organization: 'Kaggle',
+    date: 'Feb 27, 2025',
+    link: 'https://www.kaggle.com/learn/certification/lewisweru/pandas',
+    logo: 'https://i.imgur.com/tnVGFQO.png',
   }
+  
 ];
 
 const softwareDevCertificates = [
