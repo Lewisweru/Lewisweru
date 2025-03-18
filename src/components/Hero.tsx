@@ -1,5 +1,6 @@
 import React, { useEffect, useState } from "react";
 import { Github, Linkedin, Mail, ExternalLink } from "lucide-react";
+import { BarChart3 } from "lucide-react"; // Kaggle icon alternative
 
 export default function Hero() {
   const [columns, setColumns] = useState(0);
@@ -11,17 +12,16 @@ export default function Hero() {
 
   const createRainDrops = () => {
     const drops = [];
-    // Create matrix rain spans
     for (let i = 0; i < columns; i++) {
       drops.push(
         <span
           key={i}
           style={{
-            left: `${i * 20}px`, // Position rain drops evenly
-            animationDelay: `${Math.random() * 5}s`, // Randomize animation delay
-            animationDuration: `${Math.random() * 3 + 3}s`, // Vary the speed of falling
-            top: `${Math.random() * window.innerHeight}px`, // Start rain drops at random positions
-            fontSize: `${Math.random() * 2 + 18}px`, // Randomize font size for depth
+            left: `${i * 20}px`,
+            animationDelay: `${Math.random() * 5}s`,
+            animationDuration: `${Math.random() * 3 + 3}s`,
+            top: `${Math.random() * window.innerHeight}px`,
+            fontSize: `${Math.random() * 2 + 18}px`,
           }}
         >
           0
@@ -86,6 +86,10 @@ export default function Hero() {
               </a>
               <a target="_blank" href="mailto:lewisweru.riarauniversity.ac.ke" className="text-gray-400 hover:text-white transition-colors">
                 <Mail size={24} />
+              </a>
+              {/* Kaggle Link */}
+              <a target="_blank" href="https://www.kaggle.com/lewisweru" className="text-gray-400 hover:text-white transition-colors">
+                <BarChart3 size={24} />
               </a>
             </div>
           </div>
