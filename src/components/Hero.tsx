@@ -8,8 +8,8 @@ export default function Hero() {
 
   useEffect(() => {
     if (rainRef.current) {
-      const symbols = "01"; // You can add more characters for variation
-      const columns = Math.floor(window.innerWidth / 20); // Adjust for screen width
+      const symbols = "01"; // Matrix-style symbols
+      const columns = Math.floor(window.innerWidth / 20);
       const drops = [];
 
       for (let i = 0; i < columns; i++) {
@@ -23,7 +23,7 @@ export default function Hero() {
 
       gsap.to(drops, {
         y: window.innerHeight,
-        duration: () => Math.random() * 2 + 3, // Vary speed
+        duration: () => Math.random() * 2 + 3, 
         repeat: -1,
         ease: "none",
         stagger: {
@@ -57,29 +57,29 @@ export default function Hero() {
             href="/MYCV.pdf"
             target="_blank"
             rel="noopener noreferrer"
-            className="bg-blue-500 hover:bg-blue-600 text-white px-6 py-3 rounded-lg flex items-center gap-2 transition-all pulse-hover"
+            className="bg-blue-500 hover:bg-blue-600 text-white px-6 py-3 rounded-lg flex items-center gap-2 transition-all"
           >
             <ExternalLink size={20} />
             View Resume
           </a>
-          <button className="border border-blue-500 hover:bg-blue-500/10 text-white px-6 py-3 rounded-lg flex items-center gap-2 transition-all pulse-hover">
+          <button className="border border-blue-500 hover:bg-blue-500/10 text-white px-6 py-3 rounded-lg flex items-center gap-2 transition-all">
             <Mail size={20} />
             Contact Me
           </button>
         </div>
 
-        {/* Social Links */}
+        {/* Social Links (with Hover Glow) */}
         <div className="mt-6 flex gap-6 justify-center">
-          <a target="_blank" href="https://github.com/Lewisweru" className="text-gray-400 hover:text-white transition-colors">
+          <a target="_blank" href="https://github.com/Lewisweru" className="text-gray-400 hover:text-white transition-colors pulse-hover">
             <Github size={24} />
           </a>
-          <a target="_blank" href="https://www.linkedin.com/in/onlylewis/" className="text-gray-400 hover:text-white transition-colors">
+          <a target="_blank" href="https://www.linkedin.com/in/onlylewis/" className="text-gray-400 hover:text-white transition-colors pulse-hover">
             <Linkedin size={24} />
           </a>
-          <a target="_blank" href="mailto:lewisweru.riarauniversity.ac.ke" className="text-gray-400 hover:text-white transition-colors">
+          <a target="_blank" href="mailto:lewisweru.riarauniversity.ac.ke" className="text-gray-400 hover:text-white transition-colors pulse-hover">
             <Mail size={24} />
           </a>
-          <a target="_blank" href="https://www.kaggle.com/lewisweru" className="text-gray-400 hover:text-white transition-colors">
+          <a target="_blank" href="https://www.kaggle.com/lewisweru" className="text-gray-400 hover:text-white transition-colors pulse-hover">
             <BarChart3 size={24} />
           </a>
         </div>
