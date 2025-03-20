@@ -63,7 +63,7 @@ export default function Hero() {
             View Resume
           </a>
           <button className="border border-blue-500 hover:bg-blue-500/10 text-white px-6 py-3 rounded-lg flex items-center gap-2 transition-all">
-            <Mail size={20} />
+            <Mail size={48} />
             Contact Me
           </button>
         </div>
@@ -71,16 +71,16 @@ export default function Hero() {
         {/* Social Links (with Hover Glow) */}
         <div className="mt-6 flex gap-6 justify-center">
           <a target="_blank" href="https://github.com/Lewisweru" className="text-gray-400 hover:text-white transition-colors pulse-hover">
-            <Github size={24} />
+            <Github size={48}} />
           </a>
           <a target="_blank" href="https://www.linkedin.com/in/onlylewis/" className="text-gray-400 hover:text-white transition-colors pulse-hover">
-            <Linkedin size={24} />
+            <Linkedin size={48} />
           </a>
           <a target="_blank" href="mailto:lewisweru.riarauniversity.ac.ke" className="text-gray-400 hover:text-white transition-colors pulse-hover">
-            <Mail size={24} />
+            <Mail size={48} />
           </a>
           <a target="_blank" href="https://www.kaggle.com/lewisweru" className="text-gray-400 hover:text-white transition-colors pulse-hover">
-            <BarChart3 size={24} />
+            <BarChart3 size={48} />
           </a>
         </div>
       </div>
