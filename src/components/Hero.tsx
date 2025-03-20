@@ -1,66 +1,33 @@
-import React, { useEffect, useRef } from "react";
-import { Github, Linkedin, Mail, ExternalLink } from "lucide-react";
-import { BarChart3 } from "lucide-react";
+import React, { useEffect } from "react";
 import gsap from "gsap";
 import { ScrollTrigger } from "gsap/ScrollTrigger";
+import { Github, Linkedin, Mail, ExternalLink, BarChart3 } from "lucide-react";
 
 gsap.registerPlugin(ScrollTrigger);
 
 export default function Hero() {
-  const heroRef = useRef(null);
-  const textRef = useRef(null);
-  const imageRef = useRef(null);
-  const socialLinksRef = useRef(null);
-
   useEffect(() => {
-    // Hero Section Animation
-    gsap.fromTo(
-      heroRef.current,
-      { opacity: 0 },
-      { opacity: 1, duration: 1.5, ease: "power2.out" }
-    );
-
-    // Text Animation
-    gsap.fromTo(
-      textRef.current,
-      { x: -100, opacity: 0 },
-      { x: 0, opacity: 1, duration: 1.5, ease: "power2.out", stagger: 0.2 }
-    );
-
-    // Image Animation
-    gsap.fromTo(
-      imageRef.current,
-      { scale: 0.8, opacity: 0 },
-      { scale: 1, opacity: 1, duration: 1.5, ease: "elastic.out(1, 0.6)" }
-    );
-
-    // Social Links Animation
-    gsap.fromTo(
-      socialLinksRef.current.children,
-      { y: 30, opacity: 0 },
-      { y: 0, opacity: 1, duration: 1, stagger: 0.2, ease: "power2.out" }
-    );
+    gsap.from(".hero-text", { opacity: 0, y: 50, duration: 1, ease: "power3.out" });
+    gsap.from(".hero-image", { opacity: 0, scale: 0.8, duration: 1.2, ease: "elastic.out(1, 0.5)" });
+    gsap.from(".social-icon", { opacity: 0, y: 20, stagger: 0.2, duration: 0.8, ease: "power2.out" });
   }, []);
 
   return (
-    <section
-      ref={heroRef}
-      className="relative min-h-screen flex items-center justify-center bg-gradient-to-br from-gray-900 to-gray-800 text-white"
-    >
+    <section className="relative min-h-screen flex items-center justify-center bg-gradient-to-br from-gray-900 to-gray-800 text-white">
       <div className="relative z-10 container mx-auto px-4 py-16">
         <div className="flex flex-col md:flex-row items-center justify-between gap-12">
           {/* Profile Image */}
-          <div ref={imageRef} className="md:w-1/2">
+          <div className="md:w-1/2">
             <img
               src="https://i.imgur.com/rC6dgU3.jpeg"
               alt="Developer Profile"
-              className="rounded-full w-48 h-48 md:w-64 md:h-64 object-cover border-4 border-blue-500 shadow-xl mx-auto md:mx-0"
+              className="rounded-full w-48 h-48 md:w-64 md:h-64 object-cover border-4 border-blue-500 shadow-xl mx-auto md:mx-0 hero-image"
             />
           </div>
 
           {/* Hero Text */}
-          <div className="md:w-1/2 text-center md:text-left" ref={textRef}>
-            <h1 className="text-4xl md:text-6xl font-bold mb-4">
+          <div className="md:w-1/2 text-center md:text-left hero-text">
+            <h1 className="text-4xl md:text-6xl font-bold mb-4 neon-text">
               Lewis Weru
               <span className="block text-blue-400 text-2xl md:text-3xl mt-2">
                 Data Analyst | Software Developer
@@ -76,46 +43,29 @@ export default function Hero() {
                 href="/MYCV.pdf"
                 target="_blank"
                 rel="noopener noreferrer"
-                className="bg-blue-500 hover:bg-blue-600 text-white px-6 py-3 rounded-lg flex items-center gap-2 transition-all"
+                className="bg-blue-500 hover:bg-blue-600 text-white px-6 py-3 rounded-lg flex items-center gap-2 transition-all pulse-hover"
               >
-                <ExternalLink size={20} /> View Resume
+                <ExternalLink size={20} />
+                View Resume
               </a>
-              <button className="border border-blue-500 hover:bg-blue-500/10 text-white px-6 py-3 rounded-lg flex items-center gap-2 transition-all">
-                <Mail size={40} /> Contact Me
+              <button className="border border-blue-500 hover:bg-blue-500/10 text-white px-6 py-3 rounded-lg flex items-center gap-2 transition-all pulse-hover">
+                <Mail size={48} />
+                Contact Me
               </button>
             </div>
 
             {/* Social Links */}
-            <div
-              ref={socialLinksRef}
-              className="flex gap-6 justify-center md:justify-start"
-            >
-              <a
-                target="_blank"
-                href="https://github.com/Lewisweru"
-                className="text-gray-400 hover:text-white transition-colors"
-              >
+            <div className="flex gap-6 justify-center md:justify-start">
+              <a target="_blank" href="https://github.com/Lewisweru" className="text-gray-400 hover:text-cyan-400 transition-colors pulse-hover social-icon">
                 <Github size={48} />
               </a>
-              <a
-                target="_blank"
-                href="https://www.linkedin.com/in/onlylewis/"
-                className="text-gray-400 hover:text-white transition-colors"
-              >
+              <a target="_blank" href="https://www.linkedin.com/in/onlylewis/" className="text-gray-400 hover:text-cyan-400 transition-colors pulse-hover social-icon">
                 <Linkedin size={48} />
               </a>
-              <a
-                target="_blank"
-                href="mailto:lewisweru.riarauniversity.ac.ke"
-                className="text-gray-400 hover:text-white transition-colors"
-              >
+              <a target="_blank" href="mailto:lewisweru.riarauniversity.ac.ke" className="text-gray-400 hover:text-cyan-400 transition-colors pulse-hover social-icon">
                 <Mail size={48} />
               </a>
-              <a
-                target="_blank"
-                href="https://www.kaggle.com/lewisweru"
-                className="text-gray-400 hover:text-white transition-colors"
-              >
+              <a target="_blank" href="https://www.kaggle.com/lewisweru" className="text-gray-400 hover:text-cyan-400 transition-colors pulse-hover social-icon">
                 <BarChart3 size={48} />
               </a>
             </div>
@@ -125,4 +75,3 @@ export default function Hero() {
     </section>
   );
 }
-
