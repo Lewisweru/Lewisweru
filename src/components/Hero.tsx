@@ -71,7 +71,7 @@ export default function Hero() {
         {/* Social Links (with Hover Glow) */}
         <div className="mt-6 flex gap-6 justify-center">
           <a target="_blank" href="https://github.com/Lewisweru" className="text-gray-400 hover:text-white transition-colors pulse-hover">
-            <Github size={48}} />
+            <Github size={48} />
           </a>
           <a target="_blank" href="https://www.linkedin.com/in/onlylewis/" className="text-gray-400 hover:text-white transition-colors pulse-hover">
             <Linkedin size={48} />
