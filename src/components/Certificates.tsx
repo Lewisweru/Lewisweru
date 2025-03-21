@@ -35,6 +35,12 @@ const dataScienceCertificates = [
     date: 'Feb 27, 2025',
     link: 'https://www.kaggle.com/learn/certification/lewisweru/pandas',
     logo: 'https://i.imgur.com/tnVGFQO.png',
+  },{
+    title: 'Python',
+    organization: 'Kaggle',
+    date: 'March 21, 2025',
+    link: 'https://www.kaggle.com/learn/certification/lewisweru/python',
+    logo: 'https://i.imgur.com/tnVGFQO.png',
   }
   
 ];
