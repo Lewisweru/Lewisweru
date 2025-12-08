@@ -163,9 +163,7 @@ export default function ArtGallery() {
                   </div>
                 </div>
                 <div className="p-4">
-                  <h3 className="font-semibold text-lg mb-1">{artwork.title}</h3>
-                  <p className="text-sm text-gray-500">{artwork.artist}</p>
-                  <span className="inline-block mt-2 px-3 py-1 bg-purple-100 text-purple-700 text-xs rounded-full">
+                  <span className="inline-block px-3 py-1 bg-purple-100 text-purple-700 text-xs rounded-full">
                     {artwork.category}
                   </span>
                 </div>

@@ -15,7 +15,7 @@ export default function ArtContact() {
   const handleSubmit = (e: React.FormEvent) => {
     e.preventDefault();
     // In a real application, this would send the data to a backend
-    console.log('Form submitted:', formData);
+    // TODO: Implement backend integration for form submission
     setSubmitted(true);
     setTimeout(() => setSubmitted(false), 3000);
   };
