@@ -3,7 +3,11 @@ import gsap from "gsap";
 import { Github, Linkedin, Mail, ExternalLink } from "lucide-react";
 import { BarChart3 } from "lucide-react"; // Kaggle icon alternative
 
-export default function Hero() {
+interface HeroProps {
+  onExploreMedia?: () => void;
+}
+
+export default function Hero({ onExploreMedia }: HeroProps) {
   const rainRef = useRef<HTMLDivElement>(null);
 
   useEffect(() => {
@@ -52,7 +56,7 @@ export default function Hero() {
         </p>
 
         {/* Buttons */}
-        <div className="mt-6 flex gap-4 justify-center">
+        <div className="mt-6 flex flex-wrap justify-center gap-4">
           <a
             href="/MYCV.pdf"
             target="_blank"
@@ -65,6 +69,12 @@ export default function Hero() {
           <button className="border border-blue-500 hover:bg-blue-500/10 text-white px-6 py-3 rounded-lg flex items-center gap-2 transition-all">
             <Mail size={48} />
             Contact Me
+          </button>
+          <button
+            onClick={() => onExploreMedia?.()}
+            className="rounded-lg border border-cyan-300 bg-cyan-300/90 px-6 py-3 font-semibold text-slate-950 shadow-[0_0_30px_rgba(34,211,238,0.2)] transition-all hover:-translate-y-0.5 hover:bg-cyan-200"
+          >
+            Explore Media
           </button>
         </div>
 
