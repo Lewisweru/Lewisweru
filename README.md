@@ -73,16 +73,20 @@
 
 ---
 
-### 📊 GitHub Stats
+### 📊 By the Numbers
 
 <p align="center">
-  <img width="49%" src="https://github-readme-stats.vercel.app/api?username=Lewisweru&show_icons=true&theme=tokyonight&hide_border=true&count_private=true" alt="Lewis's GitHub stats"/>
-  <img width="49%" src="https://github-readme-streak-stats.herokuapp.com/?user=Lewisweru&theme=tokyonight&hide_border=true" alt="GitHub streak"/>
+  <img src="https://img.shields.io/badge/Sites_Deployed-100%2B-1CE8C5?style=for-the-badge&labelColor=0D1114" alt="Sites deployed"/>
+  <img src="https://img.shields.io/badge/Mobile_Apps-3-1CE8C5?style=for-the-badge&labelColor=0D1114" alt="Mobile apps"/>
+  <img src="https://img.shields.io/badge/Payment_Gateways-3-1CE8C5?style=for-the-badge&labelColor=0D1114" alt="Payment gateways"/>
+  <img src="https://img.shields.io/badge/Client_Brands-40%2B-1CE8C5?style=for-the-badge&labelColor=0D1114" alt="Client brands"/>
 </p>
 
 <p align="center">
-  <img width="49%" src="https://github-readme-stats.vercel.app/api/top-langs/?username=Lewisweru&layout=compact&theme=tokyonight&hide_border=true&langs_count=8" alt="Top languages"/>
+  <img height="170" src="https://streak-stats.demolab.com?user=Lewisweru&theme=tokyonight&hide_border=true&background=0D1114&border=182025&stroke=1CE8C5&ring=1CE8C5&fire=1CE8C5&currStreakLabel=1CE8C5" alt="GitHub streak"/>
 </p>
+
+> 📈 _GitHub's public graphs only count public repos — most of my **100+ projects** are private client work. The real portfolio is at **[lewisweru.netlify.app](https://lewisweru.netlify.app)**._
 
 ---
 
