@@ -1,5 +1,5 @@
 <h1 align="center">Hi there, I'm Lewis Muriuki Weru 👋</h1>
-<h3 align="center">Full-Stack & Mobile Developer · React Native | React | Node.js · Nairobi, Kenya 🇰🇪</h3>
+<h3 align="center">Full-Stack & Mobile Developer · Founder of Websiteskenya · Nairobi, Kenya 🇰🇪</h3>
 
 <p align="center">
   <a href="https://lewisweru.netlify.app"><img src="https://img.shields.io/badge/Portfolio-000000?style=for-the-badge&logo=vercel&logoColor=white" alt="Portfolio"/></a>
@@ -10,13 +10,13 @@
 
 ---
 
-### 🚀 About Me
+### 👨🏽‍💻 About Me
 
-- 🎓 **B.Sc. Computer Science** graduate — Riara University (2026)
+- 🏢 **Founder of [Websiteskenya](https://websiteskenya.co.ke)** — 100+ live sites & 3 mobile apps shipped for businesses across Kenya
+- 🎓 **B.Sc. Computer Science** graduate — Riara University · 23 years old, based in Nairobi 🇰🇪
 - 📱 I build and ship **cross-platform mobile apps** to the **Google Play Store & App Store** with React Native + Expo
 - 🌐 I craft fast, responsive **web apps** with React, Next.js & Tailwind
-- 💳 I integrate real payments in East Africa — **M-Pesa (Daraja API)**, push notifications & WhatsApp bots
-- 🧠 Currently maintaining **Train Your Brain** (AI wellness app) & **Ace Publishers** (live e-learning platform)
+- 💳 I integrate real payments in East Africa — **M-Pesa (Daraja), Pesapal & Paystack**, push notifications & WhatsApp bots
 - 💬 Ask me about React Native, Firebase, or shipping to the stores in low-bandwidth markets
 
 ---
@@ -64,10 +64,11 @@
 
 | Project | Description | Stack | Status |
 |---------|-------------|-------|--------|
-| 🧠 **[Train Your Brain](https://lewisweru.netlify.app)** | Cross-platform mental wellness app with AI chatbot support, therapist matching & gamified habit tools | React Native · Expo · TS · Firebase · AI | 📱 iOS & Android |
-| 📚 **[Ace Publishers](https://lewisweru.netlify.app)** | Live e-learning & digital publishing platform for schools across Kenya | React Native · Expo · TS · Firebase | 🟢 Live on Play Store |
-| 🎨 **ArtStudioAfrica** | Creative marketplace with artist profiles, secure auth & artwork browsing | React Native · Expo · TS | 🧪 Closed Testing |
-| 🛒 **Samwa Foods** | Responsive e-commerce site with catalog management & order tracking | React · Next.js · Firebase | 🟢 Live |
+| 🏢 **[Websiteskenya](https://websiteskenya.co.ke)** | My web & app agency platform — 100+ sites delivered, with M-Pesa/Pesapal/Paystack, app dev & WhatsApp bots | Next.js · Firebase · Payments | 🟢 Live |
+| 🧠 **[Train Your Brain](https://train-your-brains.org)** | Cross-platform mental wellness app with AI chatbot support, therapist matching & gamified habit tools | React Native · Expo · TS · Firebase · AI | 📱 iOS & Android |
+| 📚 **[Ace Publishers](https://acepublishers.co.ke)** | Live e-learning & digital publishing platform for schools across Kenya | React Native · Expo · TS · Firebase | 🟢 Live on Play Store |
+| 🥩 **[Amana Butchery](https://amanabutchery.com)** | Real-time stock-reconciliation system — variance flagging, egg-by-grade tracking & PDF reports | Next.js · TS · Firebase | 🟢 Live |
+| 🛒 **[Samwa Foods](https://samwafoods.co.ke)** | Natural-foods e-commerce with catalog, order tracking & a built-in SEO blog | React · Next.js · Firebase | 🟢 Live |
 
 > 🔗 More projects & case studies on my **[portfolio →](https://lewisweru.netlify.app)**
 
